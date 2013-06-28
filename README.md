@@ -3,6 +3,10 @@ RLOG
 
 RLOG - an RDF Logging Ontology and its Bindings
 
+##TODO 
+- move RLOG classes from /home/sebastian/svn/RLOG/maven/jena/src/main/java/org/nlp2rdf/core/vocab to their own module maven/vocab
+
+
 ## RLOG - an RDF Logging Ontolog
 The ontology is hosted at:
 http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#
