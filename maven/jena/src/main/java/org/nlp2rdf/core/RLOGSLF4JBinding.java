@@ -30,7 +30,6 @@ public class RLOGSLF4JBinding {
 
     public static Model log(String logPrefix, String message, RLOGIndividuals level, Logger logger) {
         OntModel model = ModelFactory.createOntologyModel();
-        NIFNamespaces.addRLOGPrefix(model);
 
         Resource r = model.createResource(logPrefix + getCounter() + "_" + System.currentTimeMillis() + "_" + level.toString());
         r.addProperty(RDF.type, model.createResource(RLOGOntClasses.Entry.getUri()));
